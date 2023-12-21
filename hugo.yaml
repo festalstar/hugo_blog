@@ -27,7 +27,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -57,32 +57,32 @@ params:
     iconHeight: 35
 
   # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: fsblog
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+  #profileMode:
+  #  enabled: false # needs to be explicitly set
+  #  title: fsblog
+  #  subtitle: "This is subtitle"
+  #  imageUrl: "<img location>"
+  #  imageWidth: 120
+  #  imageHeight: 120
+  #  imageTitle: my image
+  #  buttons:
+  #    - name: Posts
+  #      url: posts
+  #    - name: Tags
+  #      url: tags
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hi there"
     Content: Welcome to my blog
-
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+  #
+  #socialIcons:
+  #  - name: twitter
+  #    url: "https://twitter.com/"
+  #  - name: stackoverflow
+  #    url: "https://stackoverflow.com"
+  #  - name: github
+  #    url: "https://github.com/"
 
   analytics:
     google:
@@ -123,10 +123,10 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: 163.com
-      url: https://163.com
-      weight: 30
+    #- identifier: example
+    #  name: 163.com
+    #  url: https://163.com
+    #  weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
