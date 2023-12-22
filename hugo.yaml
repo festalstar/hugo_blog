@@ -4,7 +4,7 @@ paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
-
+hasCJKLanguage: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -134,6 +134,10 @@ menu:
       name: search
       url: /search/
       weight: 30
+    - identifier: archives
+      name: archives
+      url: archives/
+      weight: 25
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
