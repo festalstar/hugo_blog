@@ -60,7 +60,7 @@ params:
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: /home.png
     iconHeight: 35
 
   # profile-mode
@@ -105,9 +105,9 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/festalstar/festalstar.github.io/content"
+    URL: "https://github.com/festalstar/festalstar.github.io/issues"
     Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    appendFilePath: false # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -123,19 +123,19 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: 📒categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: 🏷️tags
       url: /tags/
       weight: 20
     - identifier: search
-      name: search
+      name: 🔍search
       url: /search/
       weight: 30
     - identifier: archives
-      name: archives
+      name: ⌛️archives
       url: archives/
       weight: 25
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
