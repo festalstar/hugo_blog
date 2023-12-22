@@ -1,19 +1,17 @@
 +++
-title = 'My First Post'
-date = 2023-12-20T11:10:34+08:00
+title = 'test'
+date = 2023-12-20T22:30:32+08:00
 draft = false
 
 +++
 
-test12123
+# 标题1
+## 标题2
+## 标题21
 
-
-
-# Introduction 
-
-
-
-This is **bold** text, and this is *emphasized* text. 
+Git上传文件到Github(最详细)
+大致步骤
+本地仓库：
 
 deploy test
 
