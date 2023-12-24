@@ -10,7 +10,6 @@ buildFuture: false
 buildExpired: false
 
 #googleAnalytics: UA-123-45
-post_asset_folder: true
 
 minify:
   disableXML: true
@@ -49,8 +48,6 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: true
-
-  post_asset_folder: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -155,7 +152,7 @@ markup:
   highlight:
     noClasses: false
     # anchorLineNos: true
-    # codeFences: true
+    codeFences: true
     # guessSyntax: true
     # lineNos: true
     # style: monokai
