@@ -32,10 +32,10 @@ b. git push -u origin master/main 将本地项目推送到远程仓库。
 
 
 
-git pull origin main // 把本地仓库的变化连接到远程仓库主分支   //理解是上传本地文件到远程仓库
+git pull origin main // 把本地仓库的变化连接到远程仓库主分支   //理解是拉取远程仓库到本地仓库
 git branch -M main //选择main分支，可以改名上传其它分支
 
-git clone https://github.com/festalstar/hugo_blog.git
+git clone https://github.com/UserName/projectName.git
 
 
 OpenSSL SSL_connect: Connection was reset in connection to github.com:443
